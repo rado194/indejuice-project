@@ -1,14 +1,45 @@
 <html>
     <head>
         <title>IndeFruit</title>
-        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link type='text/css' rel='stylesheet' href='css/fonts.css'>
         <link type='text/css' rel='stylesheet' href='css/style.css'>
-        <script type='text/javascript' src='js/script.js'></script>
     </head>
-    <body>
+    <body onload="displayList()">
+        <div class="grid-container" id="main-container">
+            <!-- Navbar -->
+            <div class="grid-container" id="navbar">
+                <div class="grid-nav1">IndeFruit</div>
+                <div class="grid-nav2" ><img src="img/logo.png" alt=""></div>
+                <div class="grid-nav3">Only The Best For Summer</div>
+            </div>
+            <!-- Main body --> 
+            <div class="grid-container">
+                <!-- Header -->
+                <div class="grid-container" id="header">
+                    <hr class="line-left">
+                    <p class="line-text">TOP FRUITS</p>
+                    <hr class="line-right">
+                </div>
 
+                <!-- Items -->
+                <div class="grid-container" id="items">
+                </div>
 
-
+                <!---------- Modal  ----------->
+                <div class="modal">
+                    
+                    <!------- Modal content ------->
+                    <div class="modal-content">
+                        <!----- Modal Title -------->
+                        <h2 id="fruit-title"></h2>
+                        <!-------- Open Modal -------->
+                        <button id="button1" value="Buy now" onclick="closeModal(event)">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type='text/javascript' src='js/script.js'></script>
     </body>
 </html>

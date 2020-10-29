@@ -1,54 +1,23 @@
-# Simple Front-End UI Test
-
-This test has been designed with three simple tasks to assess basic UI development experience.
-
-## Requirements
-
-* Git
-* Git Bash
-
-## Instructions
-
-1. Clone this Git repository.
-2. Complete Tasks A, B and C outlined below.
-3. Push your final code to your own public Git repository, or a private repository and providing @indejuice with access.
 
 ## Task A
-
-Build a simple webpage using pure HTML & CSS code as depicted in the `/src/task-a.png` design mockup.
-
-* Write your solution under the `/www` directory.
-* All required image files are located under `/www/img`.
-* Colour codes for the design have not been shared, you must extract the colours as part of this task.
-
-You will be assessed on how well your webpage design resembles the design image.
+Initially, I started the HTML with static code in terms of the items and then moved all of that code into JS where I decided to create
+an onload event. In terms of CSS, I had some difficulties as for example the top of the page was not a navigation bar which I am used to making,but it was exciting to find another way to make the page look presentable. The only styling I was not able to complete was the cutting
+of the edge of the border of the price, which I have commented out in my CSS file.
 
 ## Task B
-
-Following on from Task A, you now have to make the webpage responsive using pure CSS. A design mockup has not been provided for mobile displays, you must redesign/relayout elements for slim mobile views as you see fit.
-
-You will be assessed on how well your responsive webpage is designed.
+Due to not having much experience with CSS and Responsiveness, I did my best making the site responsive for Iphones and had the rest of the
+code be the same for any other width. I would hope if my project is good enough to qualify me for the next stage, to have enough support to 
+learn how to use CSS and Angular in a better way.
 
 ## Task C1 (UI Design)
 
-For candidates who prefer UI design over JavaScript, design a UI of a modal window that would appear when a user clicks on an item in the list. The modal UI should contain more information of your own choosing for each item, potentially with icons next to each type of data/info, and must also include a 'Buy Now' button. See `/src/task-c.png`.
-
-You're welcome to use any graphics editor you wish. Export your image as a PNG or JPEG file and place it in the `/src/` directory.
-
-You will be assessed on the design of your modal window.
+N/A
 
 ## Task C2 (JavaScript)
+Initially I was caught by suprise that the script file was placed in the head section, but after realising I placed it in in the bottom of
+the body tag. I started off with the idea of creating different buttons on each item in order to open the modal. However, afterwards
+decided to build it more dynamically and have an onclick event each time an item was clicked. I did not manage to finish the full modal and
+display the rest of the information but was happy that it works for the time I had. I also made the code more adaptive and responsive,
+in case more fruits would be added, there would be one big object that can store them. 
 
-For candidates comfortable with JS, using HTML, CSS & JavaScript, make the webpage interactive by adding a simple modal window of your own design. See `/src/task-c.png`. The UX flow is as follows:
-
-1. User clicks on an item in the list
-1. Modal window is shown with the item's title, image, description and price, including a 'Buy Now' button
-1. User clicks on the 'Buy Now' button to close modal window
-
-The item information must be dynamically filled by JavaScript, meaning the modal window must by default have no item information in it's HTML code, and only filled with the relevant item's information when one is clicked. If you wish, you're welcome to use jQuery or AngularJS.
-
-You will be assessed on your JavaScript solution and the design of your modal window.
-
-## Submission
-
-Send the link of your Git repository to: tech@indejuice.com
+Thank you for the well made instructions and taking the time to review my work.
